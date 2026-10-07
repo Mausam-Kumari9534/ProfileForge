@@ -583,10 +583,10 @@ const commitsInfo = {
       </aside>
 
       {/* Main content display view */}
-      <main className="flex-1 overflow-y-auto h-screen px-6 md:px-12 py-8 space-y-8 text-left">
+      <main className="flex-1 overflow-y-auto h-screen text-left relative">
         
         {/* Top Header navbar banner */}
-        <header className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-b border-[#1F3A5F]/5 pb-5">
+        <header className="sticky top-0 z-50 bg-[#FAFAF8] pt-8 px-6 md:px-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-b border-[#1F3A5F]/5 pb-5">
           <div className="text-left flex-1">
             <div className="flex items-center space-x-2.5">
               <h1 className="text-2xl font-extrabold text-[#1F3A5F]">{profile.fullName}</h1>
@@ -635,7 +635,7 @@ const commitsInfo = {
         </header>
 
         {/* Tab view contents switcher */}
-        <div className="transition-all duration-300">
+        <div className="transition-all duration-300 px-6 md:px-12 py-8">
           
           {/* TAB: DEVELOPER PROFILE (OVERVIEW) */}
           {activeTab === 'overview' && (
