@@ -980,8 +980,8 @@ export default function LandingPage({ onAnalyze, loading, error }: LandingPagePr
           </div>
 
           {/* Marquee Row */}
-          <div className="relative flex overflow-x-hidden py-4 border-y border-[#1F3A5F]/5 bg-white/40">
-            <div className="animate-marquee flex space-x-6 whitespace-nowrap">
+          <div className="relative flex overflow-x-hidden py-4 border-y border-[#1F3A5F]/5 bg-white/40 group">
+            <div className="animate-marquee hover:[animation-play-state:paused] flex space-x-6 whitespace-nowrap w-max pr-6">
               {testimonials.concat(testimonials).map((t, i) => (
                 <div 
                   key={i} 
