@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { LogoIcon } from './LogoIcon';
 import { GitBranch, Sparkles, Terminal, Award, Zap, CheckCircle2, HelpCircle, TrendingUp, Cpu, ShieldCheck, ChevronRight, ArrowRight, Loader2, FileText, Globe, Share2, Users, Database, Search, BookOpen, Code, Lock, ExternalLink, ChevronDown, Play, User } from 'lucide-react';
 
 interface LandingPageProps {
@@ -235,7 +236,7 @@ export default function LandingPage({ onAnalyze, loading, error }: LandingPagePr
       <header className="h-20 border-b border-[#1F3A5F]/10 px-6 md:px-12 flex items-center justify-between bg-[#F8FAF7] backdrop-blur-xl sticky top-0 z-40">
         <div className="flex items-center space-x-3">
           <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-[#1F6F5F] to-[#1F3A5F] flex items-center justify-center shadow-sm shadow-[#1F6F5F]/10">
-            <Terminal className="h-5 w-5 text-white" />
+            <LogoIcon className="h-5 w-5 text-white" />
           </div>
           <div>
             <span className="font-extrabold text-xl tracking-tight text-[#1F3A5F]">ProfileForge <span className="text-[#1F6F5F]">AI</span></span>
@@ -1143,7 +1144,7 @@ export default function LandingPage({ onAnalyze, loading, error }: LandingPagePr
           <div className="space-y-3">
             <div className="flex items-center space-x-2">
               <div className="h-7 w-7 rounded-lg bg-gradient-to-tr from-[#1F6F5F] to-[#1F3A5F] flex items-center justify-center">
-                <Terminal className="h-4 w-4 text-white" />
+                <LogoIcon className="h-4 w-4 text-white" />
               </div>
               <span className="font-extrabold text-sm text-[#1F3A5F]">ProfileForge</span>
             </div>

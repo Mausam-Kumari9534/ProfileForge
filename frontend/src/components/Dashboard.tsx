@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
+import { LogoIcon } from './LogoIcon';
 import { Link } from 'react-router-dom';
 import { BarChart2, FileText, Globe, Briefcase, HelpCircle, LogOut, Sparkles, GitBranch, Cpu, ShieldCheck, Terminal, Copy, Check, FileCode, ArrowRight, TrendingUp, MessageSquare, Users, Play, Settings, Calendar, Layers, MapPin, Link as LinkIcon, Search, BookOpen, ChevronDown, Pin, PinOff, Code, Zap, Flame } from 'lucide-react';
 import ResumeEditor from './ResumeEditor';
@@ -484,7 +485,7 @@ const commitsInfo = {
           {/* Header Logo */}
           <div className="flex items-center space-x-2.5">
             <div className="h-9 w-9 rounded-xl bg-gradient-to-tr from-[#1F6F5F] to-[#1F3A5F] flex items-center justify-center shadow-md shadow-[#1F6F5F]/10">
-              <Terminal className="h-5 w-5 text-white" />
+              <LogoIcon className="h-5 w-5 text-white" />
             </div>
             <div className="text-left">
               <span className="font-extrabold text-base text-[#1F3A5F] block leading-none">ProfileForge</span>
