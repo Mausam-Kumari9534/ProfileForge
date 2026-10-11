@@ -2232,9 +2232,9 @@ git push origin feature/your-feature
 
 By combining a React and TypeScript frontend, Node.js and Express backend, Gemini integration, Docker-based packaging, and cloud hosting, the project demonstrates an integrated approach to developer career intelligence.
 
-
-
-    <i>Built with ❤️ by Mausam Kumari</i></p>
+<p align="center">
+  <b>Built with ❤️ by Mausam Kumari</b>
+</p>
 
 <p align="center">
   🌐 <a href="https://profileforge1.pages.dev">Live Application</a> •
@@ -2242,9 +2242,5 @@ By combining a React and TypeScript frontend, Node.js and Express backend, Gemin
 </p>
 
 <p align="center">
-  <b>⚡ Analyze Your Code • Optimize Your Resume • Showcase Your Skills • Grow Your Career ⚡</b>
-</p>
-
-<p align="center">
-  <i>Built to help developers turn their technical work into meaningful career insights.</i>
+  ⚡ <b>Analyze Your Code • Optimize Your Resume • Showcase Your Skills • Grow Your Career</b> ⚡
 </p>
